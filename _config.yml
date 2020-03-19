@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Test Photo
+title: Jenelle's Competition Photostream
 email: john@eaglefox.net
 author:
   name: John De Costa
   email: john@eaglefox.net
-  website: eaglefox.net
+  website: eaglefox.com.au
 description: >- # this means to ignore newlines until "baseurl:"
   @maxvoltar's minimalistic, self-hosted photo stream.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maxvoltar.photo/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: the_foxman
-github_username: 
-instagram_username: 
+twitter_username: thefox_man
+github_username:
+instagram_username:
 # Build settings
 plugins:
   - jekyll-exif-data
@@ -51,10 +51,9 @@ image_processing:
   tint:
     source: photos/original
     destination: photos/tint
-    resize_to_fill: [1,1]
+    resize_to_fill: [1, 1]
     saver:
       strip: true
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
